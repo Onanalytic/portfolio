@@ -1219,7 +1219,7 @@
       }
 
       .hero-h1 {
-        font-size: clamp(24px, 7.2vw, 42px);
+        font-size: clamp(20px, 6.8vw, 38px);
         line-height: 0.95;
       }
 
@@ -1265,6 +1265,21 @@
         flex-direction: column;
         gap: 15px;
         text-align: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero {
+        padding: 100px 6% 60px 6%;
+      }
+      .hero-h1 {
+        font-size: clamp(16px, 5.8vw, 28px);
+        line-height: 0.98;
+      }
+      .hero-descriptor {
+        font-size: 10px;
+        letter-spacing: 0.12em;
+        margin-top: 30px;
       }
     }
 
