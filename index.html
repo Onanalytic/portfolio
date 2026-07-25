@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Analytics_On — Financial Intelligence Studio</title>
+  <title>Analytics_On — Independent Finance Professional</title>
   
   <!-- SECTION 10 — CDN DEPENDENCIES -->
   <!-- Google Fonts: Syne and DM Sans -->
@@ -492,7 +492,7 @@
 
     .grid-container {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 40px;
       max-width: 1400px;
       margin: 0 auto;
@@ -1219,7 +1219,23 @@
       }
 
       .hero-h1 {
-        font-size: clamp(28px, 8vw, 50px);
+        font-size: clamp(24px, 7.2vw, 42px);
+        line-height: 0.95;
+      }
+
+      .cap-modal-content {
+        padding: 25px 15px;
+      }
+
+      .cap-modal-close {
+        top: 15px;
+        right: 15px;
+        font-size: 24px;
+      }
+
+      .chart-container {
+        height: 280px;
+        margin-bottom: 25px;
       }
 
       .marquee-inner {
@@ -1340,7 +1356,6 @@
       <li class="menu-item" data-index="1"><a href="#" onclick="openDetailFromMenu(0)">Financial Modelling</a></li>
       <li class="menu-item" data-index="2"><a href="#" onclick="openDetailFromMenu(1)">Financial Due Diligence</a></li>
       <li class="menu-item" data-index="3"><a href="#" onclick="openDetailFromMenu(2)">Quantitative Finance</a></li>
-      <li class="menu-item" data-index="4"><a href="#" onclick="openDetailFromMenu(3)">Strategic Consulting</a></li>
     </ul>
   </div>
 
@@ -1349,13 +1364,13 @@
     <h1 class="hero-h1">
       <span class="hero-line"><span class="hero-text-inner hero-line-1">hello! I'm</span></span>
       <span class="hero-line"><span class="hero-text-inner hero-line-2">Analytics_On</span></span>
-      <span class="hero-line"><span class="hero-text-inner hero-line-3">a financial</span></span>
-      <span class="hero-line"><span class="hero-text-inner hero-line-4">intelligence</span></span>
-      <span class="hero-line"><span class="hero-text-inner hero-line-5">studio</span></span>
+      <span class="hero-line"><span class="hero-text-inner hero-line-3">Independent</span></span>
+      <span class="hero-line"><span class="hero-text-inner hero-line-4">Finance</span></span>
+      <span class="hero-line"><span class="hero-text-inner hero-line-5">Professional</span></span>
     </h1>
     
     <div class="hero-descriptor" id="heroDesc">
-      Financial Modelling &nbsp;·&nbsp; Due Diligence &nbsp;·&nbsp; Quant Finance &nbsp;·&nbsp; Strategic Consulting
+      Financial Modelling &nbsp;·&nbsp; Due Diligence &nbsp;·&nbsp; Quant Finance
     </div>
 
     <!-- Bottom corners -->
@@ -1377,7 +1392,6 @@
       <div class="marquee-text">• Financial Modelling</div>
       <div class="marquee-text">• Due Diligence</div>
       <div class="marquee-text">• Quantitative Finance</div>
-      <div class="marquee-text">• Strategic Consulting</div>
       <div class="marquee-text">• DCF Valuation</div>
       <div class="marquee-text">• Monte Carlo Simulation</div>
       <div class="marquee-text">• Quality of Earnings</div>
@@ -1387,7 +1401,6 @@
       <div class="marquee-text">• Financial Modelling</div>
       <div class="marquee-text">• Due Diligence</div>
       <div class="marquee-text">• Quantitative Finance</div>
-      <div class="marquee-text">• Strategic Consulting</div>
       <div class="marquee-text">• DCF Valuation</div>
       <div class="marquee-text">• Monte Carlo Simulation</div>
       <div class="marquee-text">• Quality of Earnings</div>
@@ -1400,14 +1413,14 @@
     <!-- Scrolling Header Inspired by Marco's -->
     <div class="work-banner">
       <div class="work-banner-inner">
-        <div class="work-banner-text">• Some of our best work •</div>
-        <div class="work-banner-text">• Some of our best work •</div>
-        <div class="work-banner-text">• Some of our best work •</div>
-        <div class="work-banner-text">• Some of our best work •</div>
-        <div class="work-banner-text">• Some of our best work •</div>
-        <div class="work-banner-text">• Some of our best work •</div>
-        <div class="work-banner-text">• Some of our best work •</div>
-        <div class="work-banner-text">• Some of our best work •</div>
+        <div class="work-banner-text">• Selected Valuation & Modelling Categories •</div>
+        <div class="work-banner-text">• Selected Valuation & Modelling Categories •</div>
+        <div class="work-banner-text">• Selected Valuation & Modelling Categories •</div>
+        <div class="work-banner-text">• Selected Valuation & Modelling Categories •</div>
+        <div class="work-banner-text">• Selected Valuation & Modelling Categories •</div>
+        <div class="work-banner-text">• Selected Valuation & Modelling Categories •</div>
+        <div class="work-banner-text">• Selected Valuation & Modelling Categories •</div>
+        <div class="work-banner-text">• Selected Valuation & Modelling Categories •</div>
       </div>
     </div>
 
@@ -1444,17 +1457,6 @@
         <div>
           <h2 class="card-title">Quantitative Finance</h2>
           <p class="card-tagline">Stochastic structures, random pricing, algorithmic analytics.</p>
-        </div>
-      </div>
-
-      <!-- Card 04 -->
-      <div class="service-card reveal reveal-stagger" data-index="3" data-color="linear-gradient(135deg, rgba(255, 179, 0, 0.15) 0%, rgba(78, 52, 46, 0.15) 100%)">
-        <div class="card-bg-img" style="background-image: url('assets/strategic_consulting.png');"></div>
-        <div class="card-overlay"></div>
-        <div class="card-num">04</div>
-        <div>
-          <h2 class="card-title">Strategic Consulting</h2>
-          <p class="card-tagline">Strategic advisory frameworks. Coming soon....</p>
         </div>
       </div>
 
@@ -1520,7 +1522,7 @@
 
     <!-- Bottom copyright row -->
     <div class="footer-bottom">
-      <div>© 2025 Analytics_On — All rights reserved</div>
+      <div>© 2026 Analytics_On</div>
       <div>Crafted with precision. Built for finance.</div>
     </div>
   </section>
@@ -1745,11 +1747,6 @@
           "Stochastic Calculus Applications",
           "Mean-Variance Portfolio Optimization"
         ]
-      },
-      {
-        title: "Strategic Consulting",
-        desc: "Coming soon....",
-        capabilities: []
       }
     ];
 
@@ -1944,28 +1941,6 @@
             *Parameters applied: Starting Value S(0) = $1.0M, Portfolio Drift &mu; = 12%, Portfolio Volatility &sigma; = 20% over 252 intervals.
           </div>
         `;
-      } else if (index === 3) {
-        chartTitle = "Strategic Health Assessment — Target Co. vs Industry Average";
-        belowContent = `
-          <div class="strat-rec-grid">
-            <div class="strat-rec-card">
-              <div class="strat-rec-header"><span>◈</span> Divest Low-Margin Segment</div>
-              <div class="strat-rec-desc">Reallocate structural capital to expand the high-velocity cloud solutions unit, accelerating overall revenue quality metrics.</div>
-            </div>
-            <div class="strat-rec-card">
-              <div class="strat-rec-header"><span>◉</span> Working Capital Optimisation</div>
-              <div class="strat-rec-desc">Restructure supply chain payables cycle terms to match collection lead times, unlocking $3.2M in annual free cash flow.</div>
-            </div>
-            <div class="strat-rec-card">
-              <div class="strat-rec-header"><span>◆</span> M&A Target Acquisition</div>
-              <div class="strat-rec-desc">Screen and identify regional logistics partners in South-East Asia to consolidate growth runways and scale operations.</div>
-            </div>
-            <div class="strat-rec-card">
-              <div class="strat-rec-header"><span>◇</span> Balance Sheet De-leveraging</div>
-              <div class="strat-rec-desc">Refinance high-yield mezzanine liabilities with senior secured debt terms during Q4 structural reorganization.</div>
-            </div>
-          </div>
-        `;
       }
 
       // Generate capabilities HTML structures
@@ -1978,61 +1953,34 @@
         `;
       });
 
-      if (index === 3) {
-        detailContent.innerHTML = `
-          <div class="detail-header">
-            <h1 class="detail-title" id="detailTitle">${data.title}</h1>
-            <p class="detail-desc" id="detailDesc">${data.desc}</p>
-          </div>
+      detailContent.innerHTML = `
+        <div class="detail-header">
+          <h1 class="detail-title" id="detailTitle">${data.title}</h1>
+          <p class="detail-desc" id="detailDesc">${data.desc}</p>
+        </div>
 
-          <div style="background-color: #080808; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 8px; padding: 60px 40px; margin-bottom: 80px; text-align: center; font-family: var(--font-body);">
-            <div style="color: var(--accent); font-size: 48px; margin-bottom: 20px; animation: float 3s ease-in-out infinite;">◈</div>
-            <h3 style="font-family: var(--font-display); font-size: 24px; font-weight: 700; color: var(--text-primary); margin-bottom: 15px; text-transform: uppercase; letter-spacing: 0.05em;">[ Strategic Suite Under Construction ]</h3>
-            <p style="color: var(--text-muted); font-size: 16px; max-width: 600px; margin: 0 auto 30px auto; line-height: 1.6;">
-              We are currently designing and refining our proprietary board-level strategy matrices, target company screening databases, and capital allocation templates.
-            </p>
-            <div style="display: inline-block; padding: 8px 16px; border-radius: 20px; background-color: rgba(200, 245, 66, 0.1); border: 1px solid rgba(200, 245, 66, 0.2); color: var(--accent); font-family: monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">
-              Status: Coming Soon
-            </div>
+        <div class="detail-capabilities">
+          <h3 class="caps-headline">Capabilities</h3>
+          <div class="caps-grid" id="capsGrid">
+            ${capsHtml}
           </div>
+        </div>
 
-          <div class="detail-cta">
-            <h2 class="cta-heading" id="ctaHeading">Ready to work <span>together?</span></h2>
-            <div class="magnetic-btn-wrap">
-              <button class="magnetic-btn" id="ctaBtn">Let's talk →</button>
-            </div>
+        <div class="case-study-section">
+          <h3 class="case-study-title">${chartTitle}</h3>
+          <div class="chart-container">
+            <canvas id="detailChartCanvas"></canvas>
           </div>
-        `;
-      } else {
-        detailContent.innerHTML = `
-          <div class="detail-header">
-            <h1 class="detail-title" id="detailTitle">${data.title}</h1>
-            <p class="detail-desc" id="detailDesc">${data.desc}</p>
-          </div>
+          ${belowContent}
+        </div>
 
-          <div class="detail-capabilities">
-            <h3 class="caps-headline">Capabilities</h3>
-            <div class="caps-grid" id="capsGrid">
-              ${capsHtml}
-            </div>
+        <div class="detail-cta">
+          <h2 class="cta-heading" id="ctaHeading">Ready to work <span>together?</span></h2>
+          <div class="magnetic-btn-wrap">
+            <button class="magnetic-btn" id="ctaBtn">Let's talk →</button>
           </div>
-
-          <div class="case-study-section">
-            <h3 class="case-study-title">${chartTitle}</h3>
-            <div class="chart-container">
-              <canvas id="detailChartCanvas"></canvas>
-            </div>
-            ${belowContent}
-          </div>
-
-          <div class="detail-cta">
-            <h2 class="cta-heading" id="ctaHeading">Ready to work <span>together?</span></h2>
-            <div class="magnetic-btn-wrap">
-              <button class="magnetic-btn" id="ctaBtn">Let's talk →</button>
-            </div>
-          </div>
-        `;
-      }
+        </div>
+      `;
       
       setupCursorHovers(); // Reinject listeners for newly spawned elements
     }
@@ -2090,7 +2038,6 @@
 
     /* SECTION 7 — CHART.JS RENDER MECHANICS */
     function renderServiceChart(index) {
-      if (index === 3) return; // No chart for Strategic Consulting
       const canvasEl = document.getElementById('detailChartCanvas');
       if (!canvasEl) return;
       const ctx = canvasEl.getContext('2d');
@@ -2398,63 +2345,6 @@
             }
           }
         });
-
-      } else if (index === 3) {
-        // SERVICE 4: STRATEGIC CONSULTING — SPIDER RADAR ASSESSMENTS
-        currentChartInstance = new Chart(ctx, {
-          type: 'radar',
-          data: {
-            labels: [
-              'Revenue Quality', 
-              'Cost Efficiency', 
-              'Market Position', 
-              'Management Depth', 
-              'Balance Sheet Strength', 
-              'Growth Runway'
-            ],
-            datasets: [
-              {
-                label: 'Target Co.',
-                data: [72, 58, 81, 65, 70, 55],
-                borderColor: '#c8f542',
-                backgroundColor: 'rgba(200, 245, 66, 0.15)',
-                borderWidth: 2,
-                pointBackgroundColor: '#c8f542'
-              },
-              {
-                label: 'Industry Avg',
-                data: [60, 65, 60, 70, 65, 68],
-                borderColor: '#f0ece4',
-                backgroundColor: 'rgba(240, 236, 228, 0.08)',
-                borderWidth: 1.5,
-                pointBackgroundColor: '#f0ece4'
-              }
-            ]
-          },
-          options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-              legend: { position: 'top' },
-              tooltip: {
-                backgroundColor: '#0d0d0d',
-                titleColor: '#c8f542',
-                bodyColor: '#f0ece4',
-                borderColor: 'rgba(255, 255, 255, 0.1)',
-                borderWidth: 1
-              }
-            },
-            scales: {
-              r: {
-                grid: { color: 'rgba(255, 255, 255, 0.08)' },
-                angleLines: { color: 'rgba(255, 255, 255, 0.08)' },
-                ticks: { display: false },
-                suggestedMin: 30,
-                suggestedMax: 100
-              }
-            }
-          }
-        });
       }
     }
 
@@ -2678,7 +2568,7 @@
           <p style="font-family: var(--font-body); font-size: 14px; color: var(--accent); margin-bottom: 25px; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 500;">Leveraged Buyout Model & Credit Memo — HVAC Inc.</p>
           
           <h3 style="font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--text-primary); margin-bottom: 15px; border-left: 2px solid var(--accent); padding-left: 12px;">Executive Return Summary</h3>
-          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 30px;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px;">
             <div style="background-color: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); padding: 20px; border-radius: 6px; text-align: center;">
               <div style="font-family: monospace; font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 5px;">Internal Rate of Return (IRR)</div>
               <div style="font-family: var(--font-display); font-size: 36px; font-weight: 800; color: var(--accent);">29.6%</div>
@@ -2819,7 +2709,7 @@
           </div>
           
           <h3 style="font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--text-primary); margin-bottom: 15px; border-left: 2px solid var(--accent); padding-left: 12px;">Model Error Check Indicators</h3>
-          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-bottom: 30px;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 30px;">
             <div style="background-color: rgba(200, 245, 66, 0.03); border: 1px solid rgba(200, 245, 66, 0.1); padding: 15px; border-radius: 6px; text-align: center;">
               <div style="font-family: monospace; font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 5px;">Balance Sheet Check</div>
               <div style="font-family: var(--font-display); font-size: 24px; font-weight: 800; color: var(--accent);">OK</div>
@@ -3007,7 +2897,7 @@
           </p>
 
           <h3 style="font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--text-primary); margin-bottom: 15px; border-left: 2px solid var(--accent); padding-left: 12px;">Key Risk Matrices</h3>
-          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 35px;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 35px;">
             <div style="background-color: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.04); padding: 20px; border-radius: 4px;">
               <div style="font-family: var(--font-display); font-size: 15px; font-weight: 700; color: var(--text-primary); margin-bottom: 10px;">Differential Disclosure</div>
               <div style="font-family: var(--font-body); font-size: 13px; color: var(--text-muted); line-height: 1.5;">Wide discrepancies between bullish investor narratives and highly detailed regulatory filings (e.g. risks related to AI integration failure, data privacy, and usage-based contracts).</div>
@@ -3088,7 +2978,7 @@
           </div>
 
           <h3 style="font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--text-primary); margin-bottom: 15px; border-left: 2px solid var(--accent); padding-left: 12px;">Financial Snapshot (FY2024A)</h3>
-          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 30px;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 15px; margin-bottom: 30px;">
             <div style="background-color: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); padding: 15px; border-radius: 6px; text-align: center;">
               <div style="font-family: monospace; font-size: 9px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 5px;">Revenue</div>
               <div style="font-family: var(--font-display); font-size: 24px; font-weight: 800; color: #ffffff;">$25.9B</div>
@@ -3157,7 +3047,7 @@
           </p>
 
           <h3 style="font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--text-primary); margin-bottom: 15px; border-left: 2px solid var(--accent); padding-left: 12px;">Key Risks & Mitigants</h3>
-          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 35px;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 35px;">
             <div style="background-color: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.04); padding: 20px; border-radius: 4px;">
               <div style="font-family: var(--font-display); font-size: 15px; font-weight: 700; color: var(--text-primary); margin-bottom: 10px;">Consumer Pressure</div>
               <div style="font-family: var(--font-body); font-size: 13px; color: var(--text-muted); line-height: 1.5;">Mitigated by aggressive value platforms (e.g., $5 bundles) and a massive digital loyalty program with 200M+ active global members.</div>
@@ -3195,7 +3085,7 @@
           
           <div style="background-color: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.05); padding: 30px; border-radius: 8px; font-family: var(--font-body); color: var(--text-muted); line-height: 1.7; margin-bottom: 30px;">
             <p style="margin-bottom: 15px;">This section displays details for: <strong style="color: var(--text-primary);">${capName}</strong>.</p>
-            <p>Our custom interactive model templates are configured with premium client visual layouts, integrated assumptions libraries, dynamic sensitivity analyses, and clean audit flow protocols.</p>
+            <p>My custom interactive model templates are configured with premium client visual layouts, integrated assumptions libraries, dynamic sensitivity analyses, and clean audit flow protocols.</p>
           </div>
           
           <div style="padding: 20px; border-radius: 6px; background-color: rgba(200, 245, 66, 0.05); border: 1px dashed rgba(200, 245, 66, 0.2); font-family: monospace; font-size: 12px; color: var(--text-primary); line-height: 1.5;">
